@@ -40,7 +40,7 @@ const Customers = () => {
       }
 
       const response = await axios.get(
-        `http://localhost:4000/api/customers?name=${query}`,
+        `https://homeexercise-1.onrender.com/api/customers?name=${query}`,
         {
           headers: { Authorization: `Bearer ${token}` },
         }
