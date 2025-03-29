@@ -27,7 +27,7 @@ const Login = () => {
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:4000/api/login", {
+      const response = await axios.post("https://homeexercise-1.onrender.com/api/login", {
         username,
         password,
       });
